@@ -1,0 +1,996 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "TACZ-1.20.1",
+      "name": "TACZ (Minecraft 1.20.1)",
+      "description": "TACZ Running Minecraft 1.20.1 (Forge v47.4.10)",
+      "icon": null,
+      "version": "",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "39c68f8be018557068512f16cf3f97fa",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/versions/1.20.1-forge-47.4.10/1.20.1-forge-47.4.10.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777708,
+                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "9446521da84ab53aa7a81af82d4e854a",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
+                "url": "https://lazyturtle9061.github.io/TACZ-MOD/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mod.chloeprime.aaaparticles:aaa_particles:1.20.1-1.4.11@jar",
+          "name": "AAAParticles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5255759,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/aaa_particles-1.20.1-1.4.11-forge.jar",
+            "MD5": "41e2e1bbd89f858b35f280858857323f"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "com.raiiiden.warborn:fracturepoint:2.3.9-beta-hotfix1@jar",
+          "name": "Fracture Point",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3104047,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/fracturepoint-1.20.1-2.3.9-beta-hotfix1-all.jar",
+            "MD5": "d2395e0cdb397e09fdab79a6994a1c99"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038979,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+          }
+        },
+        {
+          "id": "me.xjqsh.gucci:guccivuitton:0.2.2@jar",
+          "name": "Gucci & Vuitton Attachments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1598544,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/guccivuitton-1.20.1-0.2.2.jar",
+            "MD5": "778589f50a0c4b513d43aa605d5c0125"
+          }
+        },
+        {
+          "id": "mod.chloeprime.hitfeedback:hit_feedback:1.20.1-1.1.8@jar",
+          "name": "Hit Feedback",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827475,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/HitFeedback-1.20.1-1.1.8-forge.jar",
+            "MD5": "626c176a531c859cbba600ec1e94ddf8"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "me.xjqsh:lrtactical:0.3.0@jar",
+          "name": "LesRaisins Tactical Equipments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5193935,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/lrtactical-1.20.1-0.3.0.jar",
+            "MD5": "73f94347bbc9050c0a28cb9aff3c3d26"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "net.mcreator:tacheal:1.0.0@jar",
+          "name": "TacHeal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 359828,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/tacheal-1.0.0-forge-1.20.1.jar",
+            "MD5": "8ed7b391dbe1145989593c732242066f"
+          }
+        },
+        {
+          "id": "net.corrinedev:tacmove:1.0.0@jar",
+          "name": "Tactical Movement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116755,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/tacmove-1.4.1-forge-1.20.1.jar",
+            "MD5": "b7e696ebb446ff577d254da6d79d5a37"
+          }
+        },
+        {
+          "id": "com.corrinedev:tacticalmovement:1.0.0@jar",
+          "name": "Tactical Movement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9460,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/tacticalmovement-1.0.0.jar",
+            "MD5": "17a5d8c5b188ce9d90c8e002ab4740f5"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.1.6-hotfix@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47826468,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/tacz-1.20.1-1.1.6-hotfix.jar",
+            "MD5": "51636447584a75f8d2db2fb930d110b1"
+          }
+        },
+        {
+          "id": "me.muksc:tacztweaks:2.9.0@jar",
+          "name": "TaCZ Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1640111,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/tacz-tweaks-2.9.0-all.jar",
+            "MD5": "5bee35daf86a064d7f58c519e7f45fcb"
+          }
+        },
+        {
+          "id": "com.mafuyu404:taczaddon:1.1.6@jar",
+          "name": "TACZ-addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116234,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/taczaddon-1.20.1-1.1.6.jar",
+            "MD5": "1de5e7aea7d3b46d3dff334dbc3d5a42"
+          }
+        },
+        {
+          "id": "com.armatyrich:taczxgunlightsaddon:1.0.7@jar",
+          "name": "TaCZ x Guns Lights Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39464,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/taczxgunlightsaddon-1.20.1-1.0.7.jar",
+            "MD5": "4c0ea0dc537a0346b38e99efa3cc5ead"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.6@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4889296,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.6.jar",
+            "MD5": "11832e7cf51d8b058ddde5811188835c"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        },
+        {
+          "id": "com.yuushya:yuushya:2.2.3@jar",
+          "name": "Yuushya",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23411995,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/yuushya-1.20.1-forge-2.2.3.jar",
+            "MD5": "ecb9b749009a34326f3bdbb9b0f64045"
+          }
+        },
+        {
+          "id": "com.yuushya.modelling:yuushya_modelling:2.2.0@jar",
+          "name": "Yuushya Modelling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380700,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/forgemods/required/yuushya-modelling-1.20.1-forge-2.2.0.jar",
+            "MD5": "ba0444d861055e2cb2295469a27741b9"
+          }
+        },
+        {
+          "id": "client_config.json",
+          "name": "client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 20,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/com.yuushya/client_config.json",
+            "MD5": "5d9a5a048c724898c64bf0f6ae58b077",
+            "path": "config/com.yuushya/client_config.json"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 706,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "2c826fb0cb8841d8ada273a2745b2c01",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "fracturepoint-common.toml",
+          "name": "fracturepoint-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 419,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/fracturepoint-common.toml",
+            "MD5": "2cede4e381a9f48263b43d6606d0c707",
+            "path": "config/fracturepoint-common.toml"
+          }
+        },
+        {
+          "id": "hit_feedback-client.toml",
+          "name": "hit_feedback-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 77,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/hit_feedback-client.toml",
+            "MD5": "c7318d4df095152bdd7c75f11f61bc3b",
+            "path": "config/hit_feedback-client.toml"
+          }
+        },
+        {
+          "id": "lrtactical-client.toml",
+          "name": "lrtactical-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/lrtactical-client.toml",
+            "MD5": "e3e3844f6b3114133fa82559aa1eb3b1",
+            "path": "config/lrtactical-client.toml"
+          }
+        },
+        {
+          "id": "lrtactical-common.toml",
+          "name": "lrtactical-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/lrtactical-common.toml",
+            "MD5": "1a5e1b95784f027a84fe2891e73bd0f6",
+            "path": "config/lrtactical-common.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/oculus.properties",
+            "MD5": "0437859459d872116afe79282ecbe3eb",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/presencefootsteps/userconfig.json",
+            "MD5": "bfe0471fd7f0784acdf8e204ac36a4e1",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "tacz-client.toml",
+          "name": "tacz-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2321,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/tacz-client.toml",
+            "MD5": "1c8911b404ce91d8c703297dd21f23db",
+            "path": "config/tacz-client.toml"
+          }
+        },
+        {
+          "id": "tacz-common.toml",
+          "name": "tacz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2174,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/tacz-common.toml",
+            "MD5": "b473a9a00dfbbe415f77bd8166d8642f",
+            "path": "config/tacz-common.toml"
+          }
+        },
+        {
+          "id": "taczaddon-client.toml",
+          "name": "taczaddon-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1424,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/taczaddon-client.toml",
+            "MD5": "a09c89e3d6f67ea6529676d7e0b7f7fc",
+            "path": "config/taczaddon-client.toml"
+          }
+        },
+        {
+          "id": "tacztweaks.json",
+          "name": "tacztweaks.json",
+          "type": "File",
+          "artifact": {
+            "size": 2952,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/tacztweaks.json",
+            "MD5": "f0d2e0eb63d8b128cf40ce3d9bb7ff03",
+            "path": "config/tacztweaks.json"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4898,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "0179c75398ee92e8ea4a9ad36f4109b7",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2441,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "db56495d1622642c5b862596d6cfdf62",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "warborn-armor.toml",
+          "name": "warborn-armor.toml",
+          "type": "File",
+          "artifact": {
+            "size": 352,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/warborn-armor.toml",
+            "MD5": "48cf548bdd92646f1696c672adc7e7e2",
+            "path": "config/warborn-armor.toml"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+          "name": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142239,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/resourcepacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
+            "MD5": "cffbb5d1e720f96358ab2173c72b938a",
+            "path": "resourcepacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
