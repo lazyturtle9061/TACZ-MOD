@@ -985,9 +985,9 @@
           "type": "File",
           "artifact": {
             "size": 142239,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/resourcepacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/TACZ-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
             "MD5": "cffbb5d1e720f96358ab2173c72b938a",
-            "path": "resourcepacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip"
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip"
           }
         }
       ]
