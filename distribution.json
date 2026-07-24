@@ -8,20 +8,15 @@
   },
   "servers": [
     {
-      "id": "tacz-1.20.1",
-      "name": "tacz (Minecraft 1.20.1)",
-      "description": "tacz Running Minecraft 1.20.1 (Forge v47.4.10)",
+      "id": "mrkv-1.20.1",
+      "name": "MRKV",
+      "description": "MRKV Minecraft 1.20.1 모드팩",
       "icon": null,
-      "version": "",
-      "address": "localhost:25565",
+      "version": "1.0.0",
+      "address": "pangduck.o-r.kr",
       "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
@@ -433,13 +428,23 @@
           ]
         },
         {
-          "id": "mod.chloeprime.aaaparticles:aaa_particles:1.20.1-1.4.11@jar",
-          "name": "AAAParticles",
+          "id": "team.creative:ambientsounds:6.3.8@jar",
+          "name": "AmbientSounds",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5255759,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/aaa_particles-1.20.1-1.4.11-forge.jar",
-            "MD5": "41e2e1bbd89f858b35f280858857323f"
+            "size": 53429226,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+            "MD5": "dec1c8595667b063e9274d32b32efa5d"
+          }
+        },
+        {
+          "id": "net.mcreator.apocalypsecore:apocalypse_core:1.0.0@jar",
+          "name": "Apocalypse_core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423690,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/apocalypse_core-1.0.0-forge-1.20.1.jar",
+            "MD5": "f37bc7201ab00afbea0c7e435f9776ee"
           }
         },
         {
@@ -448,8 +453,48 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 580602,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "org.berezka:berezka_api:1.2.9.3@jar",
+          "name": "Berezka API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123898,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/berezka_api-1.2.9.3-forge-1.20.1.jar",
+            "MD5": "661be0c8b97df196b7d6aba4b7b1fb57"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.9.0+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1054339,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/bettercombat-forge-1.9.0+1.20.1.jar",
+            "MD5": "b288dabeb411ef564a660a56e60962c6"
+          }
+        },
+        {
+          "id": "mirsario.cameraoverhaul.entrypoints:cameraoverhaul:2.1.1-forge+mc.1.20-1.20.5@jar",
+          "name": "CameraOverhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 139793,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/CameraOverhaul-v2.1.1-forge+mc[1.20-1.20.5].jar",
+            "MD5": "583b360ad6de22845a39d3faf8c91f80"
+          }
+        },
+        {
+          "id": "org.popcraft:chunky:1.3.146@jar",
+          "name": "Chunky",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341451,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/Chunky-1.3.146.jar",
+            "MD5": "ed46120ac4f30ec8e03f6416e295577c"
           }
         },
         {
@@ -458,18 +503,88 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1181413,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
             "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
           }
         },
         {
-          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
-          "name": "Curios API",
+          "id": "com.simibubi:create:6.0.8@jar",
+          "name": "Create",
           "type": "ForgeMod",
           "artifact": {
-            "size": 398066,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
-            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+            "size": 19170905,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/create-1.20.1-6.0.8.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.38@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1144069,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+            "MD5": "2dcd30a9a9c1f0cd468915dad15d6401"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-3.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31643,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/cupboard-1.20.1-3.7.jar",
+            "MD5": "75617a524d200ff9049bc51c725f136b"
+          }
+        },
+        {
+          "id": "net.mcreator.doomsdaydecoration:doomsday_decoration:1.0.0@jar",
+          "name": "Doomsday Decoration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9658884,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/doomsday_decoration-1.1.3-forge-1.20.1.jar",
+            "MD5": "780bd21f73ed1d2c901c00ade26b2f7d"
+          }
+        },
+        {
+          "id": "me.pieking1215:waterdripsound:0.3.2@jar",
+          "name": "Drip Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79003,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/DripSounds-1.19.4-0.3.2.jar",
+            "MD5": "badde285b0465d2e1e5f7dcce14a7df2"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.20-2.0.11@jar",
+          "name": "MmmMmmMmmMmm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 839685,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/dummmmmmy-1.20-2.0.12-forge.jar",
+            "MD5": "cce8b85852b9a3fff8570a19ec3d9e90"
+          }
+        },
+        {
+          "id": "net.mcreator:dustydecorations:1.13@jar",
+          "name": "Dusty Decorations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5074483,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/DustyDecorations_1.20.1Forge_V1.13.jar",
+            "MD5": "072b574cb3a94a5ef29f8f3b058af552"
+          }
+        },
+        {
+          "id": "net.mcreator:dyairdrop:1.0.0@jar",
+          "name": "Dyairdrop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1394413,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/dyairdrop-1.0.0-1.20.1-hotfix3.0.jar",
+            "MD5": "9a247844aa88fd072cabef79fbf5d048"
           }
         },
         {
@@ -478,28 +593,68 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1320675,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
           }
         },
         {
-          "id": "com.raiiiden.warborn:fracturepoint:2.3.9-beta-hotfix1@jar",
-          "name": "Fracture Point",
+          "id": "com.corrinedev.addon:endlessammo:2.0@jar",
+          "name": "Endless Ammo Library",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3104047,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/fracturepoint-1.20.1-2.3.9-beta-hotfix1-all.jar",
-            "MD5": "d2395e0cdb397e09fdab79a6994a1c99"
+            "size": 113576,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/endlessammo-2.0.jar",
+            "MD5": "238a1ec7ddfdd0c76dd15400a76de8b3"
           }
         },
         {
-          "id": "software.bernie.example:geckolib:4.8.2@jar",
+          "id": "traben.entity_model_features:entity_model_features:3.2.4@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 752458,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/entity_model_features-3.2.4-1.20.1-forge.jar",
+            "MD5": "23e5601dd7e6e2ffab26179e4f5cabeb"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944851,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/entity_texture_features_1.20.1-forge-7.1.jar",
+            "MD5": "bb8a57f4e9965654c344854fb45dd540"
+          }
+        },
+        {
+          "id": "dev.arbor.extrasoundsnext.platform.neoforge:extrasounds:1.5.2@jar",
+          "name": "ExtraSounds Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 534488,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/extrasounds-1.5.4+1.20.1-forge.jar",
+            "MD5": "0af1bd4548a43541b0db69ee5f03df06"
+          }
+        },
+        {
+          "id": "net.dnlayu:fastboot:1.2@jar",
+          "name": "FastBoot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24477,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/fastboot-1.20.x-1.2.jar",
+            "MD5": "9489df8d4e141724d79e503d85b3d51f"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
           "name": "GeckoLib 4",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1038979,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
-            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+            "size": 1039046,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
+            "MD5": "33b0f8fe0a8d59fcf9d4e222741ecba7"
           }
         },
         {
@@ -508,28 +663,28 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1598544,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/guccivuitton-1.20.1-0.2.2.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/guccivuitton-1.20.1-0.2.2.jar",
             "MD5": "778589f50a0c4b513d43aa605d5c0125"
           }
         },
         {
-          "id": "mod.chloeprime.hitfeedback:hit_feedback:1.20.1-1.1.8@jar",
-          "name": "Hit Feedback",
+          "id": "en.predator.horrorelementmod:horror_element_mod:1.6.3@jar",
+          "name": "Horror Element Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 827475,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/HitFeedback-1.20.1-1.1.8-forge.jar",
-            "MD5": "626c176a531c859cbba600ec1e94ddf8"
+            "size": 21165237,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/horror_element_mod-1.6.3-forge-1.20.1.jar",
+            "MD5": "e0aff20857550f67e21ad1e764eef05d"
           }
         },
         {
-          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
           "name": "Kotlinforforge",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7193768,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
-            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+            "size": 7442998,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
           }
         },
         {
@@ -538,8 +693,78 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5193935,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/lrtactical-1.20.1-0.3.0.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/lrtactical-1.20.1-0.3.0.jar",
             "MD5": "73f94347bbc9050c0a28cb9aff3c3d26"
+          }
+        },
+        {
+          "id": "com.corrinedev:maxstuff:1.8.1@jar",
+          "name": "Maxstuff",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33775172,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/maxstuff-1.8.1.jar",
+            "MD5": "8452b7b2fc125e8e7f6159396ebec9e7"
+          }
+        },
+        {
+          "id": "com.overcontrol1.mcreatormemfix:mcreator_mem_fix:1.0.4@jar",
+          "name": "MCreator Memory Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 230374,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/MCreatorMemFix-1.0.4.jar",
+            "MD5": "e52af1326da5c24c699e67b43537a761"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.1.2@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693579,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+            "MD5": "78af63fce71f5739ed3595012880d502"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.4.16@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12558456,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.16.80.jar",
+            "MD5": "3791fb5cf1e8b6f583d3a00d5115d1ee"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.34@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1419416,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/moonlight-1.20-2.16.34-forge.jar",
+            "MD5": "f80a05d17e669e9a5f40cf68821601ed"
+          }
+        },
+        {
+          "id": "com.iladrien.morebridges.platform:morebridges:1.0.2@jar",
+          "name": "Create: More Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 249976,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/morebridges-forge-1.0.2+1.20.1.jar",
+            "MD5": "2f15af4e43ddb2afb08ca5fe948f4b0b"
+          }
+        },
+        {
+          "id": "dev.imb11.loader:mru:1.0.4+1.20.1+forge@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 287393,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/MRU-1.0.4+1.20.1+forge.jar",
+            "MD5": "4485788a466877a0ddd42d3df84ea913"
           }
         },
         {
@@ -548,7 +773,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2851119,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
           }
         },
@@ -558,7 +783,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 181437,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
             "MD5": "46f8554181d4d240075ea4919d01fd01"
           }
         },
@@ -568,8 +793,78 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7080698,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
             "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206984,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+            "MD5": "d70031b5058fb81d2670a4039440b00f"
+          }
+        },
+        {
+          "id": "com.example:soundofrain:0.6.0@jar",
+          "name": "Sound of Rain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7546612,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/soundofrain-0.6.0.jar",
+            "MD5": "dc01dd960f7d6ba496021112a97212ed"
+          }
+        },
+        {
+          "id": "dev.imb11.sounds.loaders:sounds:2.2.1+1.20.1+forge@jar",
+          "name": "Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10974911,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/Sounds-2.2.1+1.20.1+forge.jar",
+            "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d"
+          }
+        },
+        {
+          "id": "com.structureessentials:structureessentials:1.20.1-5.0@jar",
+          "name": "Structure Essentials mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62974,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/structureessentials-1.20.1-5.0.jar",
+            "MD5": "fb5aa74d86c0a642ef71f5456de966ea"
+          }
+        },
+        {
+          "id": "net.mcreator.survivalinstinct:survival_instinct:1.0.2@jar",
+          "name": "Survival Instinct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2136620,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/survival_instinct-1.0.2-forge-1.20.1.jar",
+            "MD5": "cc3d726c975632a9a4b78dea7a1d5fc5"
           }
         },
         {
@@ -578,78 +873,68 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 359828,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/tacheal-1.0.0-forge-1.20.1.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tacheal-1.0.0-forge-1.20.1.jar",
             "MD5": "8ed7b391dbe1145989593c732242066f"
           }
         },
         {
-          "id": "net.corrinedev:tacmove:1.0.0@jar",
-          "name": "Tactical Movement",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 116755,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/tacmove-1.4.1-forge-1.20.1.jar",
-            "MD5": "b7e696ebb446ff577d254da6d79d5a37"
-          }
-        },
-        {
-          "id": "com.corrinedev:tacticalmovement:1.0.0@jar",
-          "name": "Tactical Movement",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9460,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/tacticalmovement-1.0.0.jar",
-            "MD5": "17a5d8c5b188ce9d90c8e002ab4740f5"
-          }
-        },
-        {
-          "id": "com.tacz.guns:tacz:1.1.6-hotfix@jar",
+          "id": "com.tacz.guns:tacz:1.1.8-hotfix@jar",
           "name": "Timeless & Classics Guns: Zero",
           "type": "ForgeMod",
           "artifact": {
-            "size": 47826468,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/tacz-1.20.1-1.1.6-hotfix.jar",
-            "MD5": "51636447584a75f8d2db2fb930d110b1"
+            "size": 57465167,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tacz-1.20.1-1.1.8-hotfix.jar",
+            "MD5": "65e19238d5669d1a74305ba7e49408f7"
           }
         },
         {
-          "id": "me.muksc:tacztweaks:2.9.0@jar",
+          "id": "me.muksc:tacztweaks:2.14.1@jar",
           "name": "TaCZ Tweaks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1737843,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/tacz-tweaks-2.9.0-all.jar",
-            "MD5": "5e30e520314ac6855883f2b7b164bb8c"
+            "size": 1929747,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tacz-tweaks-2.14.1-all.jar",
+            "MD5": "6ba4e28b42f717a8d6a112bbabb4b18b"
           }
         },
         {
-          "id": "com.mafuyu404:taczaddon:1.1.6@jar",
-          "name": "TACZ-addon",
+          "id": "com.raiiiden:taczmagazines:0.1.4@jar",
+          "name": "TaCZ: Magazines",
           "type": "ForgeMod",
           "artifact": {
-            "size": 116234,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/taczaddon-1.20.1-1.1.6.jar",
-            "MD5": "1de5e7aea7d3b46d3dff334dbc3d5a42"
+            "size": 691995,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/taczmagazines-1.20.1-0.1.4-Beta.jar",
+            "MD5": "866cc21186688681b13d43f4d8bd3177"
           }
         },
         {
-          "id": "com.armatyrich:taczxgunlightsaddon:1.0.7@jar",
-          "name": "TaCZ x Guns Lights Addon",
+          "id": "org.berezka:tarkovdayz_translation:1.0.0@jar",
+          "name": "Tarkovdayz-translation",
           "type": "ForgeMod",
           "artifact": {
-            "size": 39464,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/taczxgunlightsaddon-1.20.1-1.0.7.jar",
-            "MD5": "4c0ea0dc537a0346b38e99efa3cc5ead"
+            "size": 9322,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tarkovdayz_translation-1.0.0-forge-1.20.1.jar",
+            "MD5": "3b5a715417cf7adc4950a3c912679b9e"
           }
         },
         {
-          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.6@jar",
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.18@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4889296,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.6.jar",
-            "MD5": "11832e7cf51d8b058ddde5811188835c"
+            "size": 4903917,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.18.jar",
+            "MD5": "07082c80834951e6621fec0dc52096b2"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
           }
         },
         {
@@ -658,8 +943,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1105891,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
             "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        },
+        {
+          "id": "com.yuushya.modelling:yuushya_modelling:2.4.1@jar",
+          "name": "Yuushya Modelling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 692976,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/yuushya_modelling-1.20.1-2.4.1.jar",
+            "MD5": "b6477554f70e1f77e0cee23a30cc6848"
           }
         },
         {
@@ -668,18 +963,96 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 23411995,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/yuushya-1.20.1-forge-2.2.3.jar",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/yuushya-1.20.1-forge-2.2.3.jar",
             "MD5": "ecb9b749009a34326f3bdbb9b0f64045"
           }
         },
         {
-          "id": "com.yuushya.modelling:yuushya_modelling:2.2.0@jar",
-          "name": "Yuushya Modelling",
-          "type": "ForgeMod",
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
           "artifact": {
-            "size": 380700,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/forgemods/required/yuushya-modelling-1.20.1-forge-2.2.0.jar",
-            "MD5": "ba0444d861055e2cb2295469a27741b9"
+            "size": 4198,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/ambientsounds-client.json",
+            "MD5": "419cbf98a364de484b408049debcb8db",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "BatteryDuration.toml",
+          "name": "BatteryDuration.toml",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/BatteryDuration.toml",
+            "MD5": "b9251aca85f697a6c1e7d54c52ea88ed",
+            "path": "config/BatteryDuration.toml"
+          }
+        },
+        {
+          "id": "BerezkaAPI.toml",
+          "name": "BerezkaAPI.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1130,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/BerezkaAPI.toml",
+            "MD5": "4bce849da0234878751980b414500dea",
+            "path": "config/BerezkaAPI.toml"
+          }
+        },
+        {
+          "id": "client.json5",
+          "name": "client.json5",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/bettercombat/client.json5",
+            "MD5": "16a114bb2ec3d5de343c09f2eb123f53",
+            "path": "config/bettercombat/client.json5"
+          }
+        },
+        {
+          "id": "fallback_compatibility.json",
+          "name": "fallback_compatibility.json",
+          "type": "File",
+          "artifact": {
+            "size": 2995,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/bettercombat/fallback_compatibility.json",
+            "MD5": "cd6019eba788c56ca9a0b6f7a03a02c8",
+            "path": "config/bettercombat/fallback_compatibility.json"
+          }
+        },
+        {
+          "id": "server.json5",
+          "name": "server.json5",
+          "type": "File",
+          "artifact": {
+            "size": 5268,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/bettercombat/server.json5",
+            "MD5": "69123c0f599946ad2d9178170a43c36f",
+            "path": "config/bettercombat/server.json5"
+          }
+        },
+        {
+          "id": "cameraoverhaul.toml",
+          "name": "cameraoverhaul.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7054,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/cameraoverhaul.toml",
+            "MD5": "266a6e5d65d2cdd1ec5569e9c7f64c2b",
+            "path": "config/cameraoverhaul.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/chunky/config.json",
+            "MD5": "9ab54b1a0e1195126370c48b7a7d7b71",
+            "path": "config/chunky/config.json"
           }
         },
         {
@@ -688,31 +1061,86 @@
           "type": "File",
           "artifact": {
             "size": 20,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/com.yuushya/client_config.json",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/com.yuushya/client_config.json",
             "MD5": "5d9a5a048c724898c64bf0f6ae58b077",
             "path": "config/com.yuushya/client_config.json"
           }
         },
         {
-          "id": "curios-client.toml",
-          "name": "curios-client.toml",
+          "id": "create-client.toml",
+          "name": "create-client.toml",
           "type": "File",
           "artifact": {
-            "size": 706,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/curios-client.toml",
-            "MD5": "67aaec1814836fed2d3e021c29ef6848",
-            "path": "config/curios-client.toml"
+            "size": 4397,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/create-client.toml",
+            "MD5": "d276f313790d54d07df0fbb1916f6350",
+            "path": "config/create-client.toml"
           }
         },
         {
-          "id": "curios-common.toml",
-          "name": "curios-common.toml",
+          "id": "create-common.toml",
+          "name": "create-common.toml",
           "type": "File",
           "artifact": {
-            "size": 161,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/curios-common.toml",
-            "MD5": "4e1978c603823135e91f736983a96649",
-            "path": "config/curios-common.toml"
+            "size": 157,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/create-common.toml",
+            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1304,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/cupboard.json",
+            "MD5": "78b28ef5ad74a283f4d7e9fe5d53ed31",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "dummmmmmy-client.toml",
+          "name": "dummmmmmy-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1611,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/dummmmmmy-client.toml",
+            "MD5": "fde466b15730cae9cdb32377a85096b9",
+            "path": "config/dummmmmmy-client.toml"
+          }
+        },
+        {
+          "id": "dummmmmmy-common.toml",
+          "name": "dummmmmmy-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1277,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/dummmmmmy-common.toml",
+            "MD5": "fb9bbc2f199f4937fcf18b76d77008a8",
+            "path": "config/dummmmmmy-common.toml"
+          }
+        },
+        {
+          "id": "Dusty Decorations Config.toml",
+          "name": "Dusty Decorations Config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1128,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Dusty%20Decorations%20Config.toml",
+            "MD5": "805e5c45a1c79e7c0918f754e75d54f2",
+            "path": "config/Dusty Decorations Config.toml"
+          }
+        },
+        {
+          "id": "dyairdrop.toml",
+          "name": "dyairdrop.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1596,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/dyairdrop.toml",
+            "MD5": "7492c0de81ce958c2a368f40fd674400",
+            "path": "config/dyairdrop.toml"
           }
         },
         {
@@ -721,8 +1149,8 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/embeddium-fingerprint.json",
-            "MD5": "2c826fb0cb8841d8ada273a2745b2c01",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "5314302e9210224ee19a3c3e02d0542e",
             "path": "config/embeddium-fingerprint.json"
           }
         },
@@ -732,7 +1160,7 @@
           "type": "File",
           "artifact": {
             "size": 269,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/embeddium-mixins.properties",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/embeddium-mixins.properties",
             "MD5": "a9176524f816153a7967217b53bb75a1",
             "path": "config/embeddium-mixins.properties"
           }
@@ -743,9 +1171,75 @@
           "type": "File",
           "artifact": {
             "size": 851,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/embeddium-options.json",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/embeddium-options.json",
             "MD5": "1d15d6fc42c8aa5cd5f1dde75b4ae5f3",
             "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1242,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/entity_model_features.json",
+            "MD5": "4fda5fe12ed9a719914d946960e33103",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1421,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/entity_texture_features.json",
+            "MD5": "0c487b43d5f6178f8888d0337c72ecf8",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "extrasounds.json",
+          "name": "extrasounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 970,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/extrasounds.json",
+            "MD5": "cf0cba39c443ddc75eb9e4c41a33aa74",
+            "path": "config/extrasounds.json"
+          }
+        },
+        {
+          "id": "extraspecialcore-common.toml",
+          "name": "extraspecialcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 125,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/extraspecialcore-common.toml",
+            "MD5": "3d2e70e30311c0464a1759e0f4e36b9b",
+            "path": "config/extraspecialcore-common.toml"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "e37296ada1b0c0ebf516e79820eb5813",
+            "path": "config/flywheel-client.toml"
           }
         },
         {
@@ -754,9 +1248,20 @@
           "type": "File",
           "artifact": {
             "size": 1148,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/fml.toml",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/fml.toml",
             "MD5": "783d5f5e55fc91951e5e234d72980761",
             "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "footprintparticle.json",
+          "name": "footprintparticle.json",
+          "type": "File",
+          "artifact": {
+            "size": 2321,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/footprintparticle.json",
+            "MD5": "ee5dca999853c5d798f4da943b87b1b7",
+            "path": "config/footprintparticle.json"
           }
         },
         {
@@ -765,31 +1270,64 @@
           "type": "File",
           "artifact": {
             "size": 1628,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/forge-client.toml",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/forge-client.toml",
             "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
             "path": "config/forge-client.toml"
           }
         },
         {
-          "id": "fracturepoint-common.toml",
-          "name": "fracturepoint-common.toml",
+          "id": "handheldmoon-client.toml",
+          "name": "handheldmoon-client.toml",
           "type": "File",
           "artifact": {
-            "size": 419,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/fracturepoint-common.toml",
-            "MD5": "2cede4e381a9f48263b43d6606d0c707",
-            "path": "config/fracturepoint-common.toml"
+            "size": 457,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/handheldmoon-client.toml",
+            "MD5": "c5b5edfba8020e73ec7226f473b97246",
+            "path": "config/handheldmoon-client.toml"
           }
         },
         {
-          "id": "hit_feedback-client.toml",
-          "name": "hit_feedback-client.toml",
+          "id": "ammo_rules.json",
+          "name": "ammo_rules.json",
           "type": "File",
           "artifact": {
-            "size": 77,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/hit_feedback-client.toml",
-            "MD5": "c7318d4df095152bdd7c75f11f61bc3b",
-            "path": "config/hit_feedback-client.toml"
+            "size": 1022,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/immersive_ballistic/ammo_rules.json",
+            "MD5": "baaad7cd2eecb8020fb9acda74d98071",
+            "path": "config/immersive_ballistic/ammo_rules.json"
+          }
+        },
+        {
+          "id": "block_tagger_rules.json",
+          "name": "block_tagger_rules.json",
+          "type": "File",
+          "artifact": {
+            "size": 3406,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/immersive_ballistic/block_tagger_rules.json",
+            "MD5": "5f9d85d29bbf778c5cb878f2bcf3bcfa",
+            "path": "config/immersive_ballistic/block_tagger_rules.json"
+          }
+        },
+        {
+          "id": "immersive_ballistic-common.toml",
+          "name": "immersive_ballistic-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3222,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/immersive_ballistic/immersive_ballistic-common.toml",
+            "MD5": "4643a7b1866afe47b72b0fa844df3097",
+            "path": "config/immersive_ballistic/immersive_ballistic-common.toml"
+          }
+        },
+        {
+          "id": "LightDistance.toml",
+          "name": "LightDistance.toml",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/LightDistance.toml",
+            "MD5": "31edc88e4f50044d2306813e6f0bd806",
+            "path": "config/LightDistance.toml"
           }
         },
         {
@@ -798,7 +1336,7 @@
           "type": "File",
           "artifact": {
             "size": 199,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/lrtactical-client.toml",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/lrtactical-client.toml",
             "MD5": "e3e3844f6b3114133fa82559aa1eb3b1",
             "path": "config/lrtactical-client.toml"
           }
@@ -809,9 +1347,152 @@
           "type": "File",
           "artifact": {
             "size": 360,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/lrtactical-common.toml",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/lrtactical-common.toml",
             "MD5": "1a5e1b95784f027a84fe2891e73bd0f6",
             "path": "config/lrtactical-common.toml"
+          }
+        },
+        {
+          "id": "mcreator_mem_fix.json",
+          "name": "mcreator_mem_fix.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/mcreator_mem_fix.json",
+            "MD5": "6bfb3f70c1e001d80fb30c83461ae629",
+            "path": "config/mcreator_mem_fix.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4294,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/client.toml",
+            "MD5": "3d00e4bde2ff2d8e908dd94766132a4c",
+            "path": "config/Mekanism/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 693,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/common.toml",
+            "MD5": "a437213c24a59ed7463ddaa2510d0213",
+            "path": "config/Mekanism/common.toml"
+          }
+        },
+        {
+          "id": "gear.toml",
+          "name": "gear.toml",
+          "type": "File",
+          "artifact": {
+            "size": 12489,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/gear.toml",
+            "MD5": "e74a535bca748cb2c77f5bc62002613c",
+            "path": "config/Mekanism/gear.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 11273,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/general.toml",
+            "MD5": "8e5854cf893ce9c189f1481b20e08b96",
+            "path": "config/Mekanism/general.toml"
+          }
+        },
+        {
+          "id": "machine-storage.toml",
+          "name": "machine-storage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2424,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/machine-storage.toml",
+            "MD5": "7366658b8ed8b3f8e6fbe8e1f0b3cea3",
+            "path": "config/Mekanism/machine-storage.toml"
+          }
+        },
+        {
+          "id": "machine-usage.toml",
+          "name": "machine-usage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2614,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/machine-usage.toml",
+            "MD5": "27d8efc2ff4b922be0dd22c8bc3671aa",
+            "path": "config/Mekanism/machine-usage.toml"
+          }
+        },
+        {
+          "id": "tiers.toml",
+          "name": "tiers.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9279,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/tiers.toml",
+            "MD5": "4a170c12ae548fd21bcdbeb79c01c8f7",
+            "path": "config/Mekanism/tiers.toml"
+          }
+        },
+        {
+          "id": "world.toml",
+          "name": "world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 18322,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/Mekanism/world.toml",
+            "MD5": "815e256ca8b3678f60a6e427cbecec6f",
+            "path": "config/Mekanism/world.toml"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1027,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "12be1e89e835cca57c9017fa96f2d7e0",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1023,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "00729a29d2b24292a06e174c24a3a831",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "msd.json",
+          "name": "msd.json",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/msd.json",
+            "MD5": "786253a8eab176983c46c9699db0321f",
+            "path": "config/msd.json"
+          }
+        },
+        {
+          "id": "mtr.json",
+          "name": "mtr.json",
+          "type": "File",
+          "artifact": {
+            "size": 547,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/mtr.json",
+            "MD5": "09f4f9bfb140464cbbb18c9ca670518e",
+            "path": "config/mtr.json"
           }
         },
         {
@@ -819,10 +1500,21 @@
           "name": "oculus.properties",
           "type": "File",
           "artifact": {
-            "size": 254,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/oculus.properties",
-            "MD5": "a08f18388edd7707a328c7feefafe75b",
+            "size": 296,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/oculus.properties",
+            "MD5": "3731f7e5ab6f6be094854cecfda9d19b",
             "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/ponder-client.toml",
+            "MD5": "e923797057f201aaabb470187e768971",
+            "path": "config/ponder-client.toml"
           }
         },
         {
@@ -831,9 +1523,152 @@
           "type": "File",
           "artifact": {
             "size": 250,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/presencefootsteps/userconfig.json",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/presencefootsteps/userconfig.json",
             "MD5": "bfe0471fd7f0784acdf8e204ac36a4e1",
             "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "radiotowers-common.toml",
+          "name": "radiotowers-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3272,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/radiotowers-common.toml",
+            "MD5": "705bf228e79d761e563c3f1c084f3b5d",
+            "path": "config/radiotowers-common.toml"
+          }
+        },
+        {
+          "id": "sodiumdynamiclights-client.toml",
+          "name": "sodiumdynamiclights-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sodiumdynamiclights-client.toml",
+            "MD5": "61a3e0cdd3b5aec59041283cc39218bb",
+            "path": "config/sodiumdynamiclights-client.toml"
+          }
+        },
+        {
+          "id": "soundofrain-client.toml",
+          "name": "soundofrain-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2799,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/soundofrain-client.toml",
+            "MD5": "09847152d6bd814741919426b3478ab8",
+            "path": "config/soundofrain-client.toml"
+          }
+        },
+        {
+          "id": "chat.json",
+          "name": "chat.json",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sounds/chat.json",
+            "MD5": "74aa9d91d5666a91b6f50ed6bd69737c",
+            "path": "config/sounds/chat.json"
+          }
+        },
+        {
+          "id": "event.json",
+          "name": "event.json",
+          "type": "File",
+          "artifact": {
+            "size": 797,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sounds/event.json",
+            "MD5": "c3f29ed1e95a458a27698a3c411ece6f",
+            "path": "config/sounds/event.json"
+          }
+        },
+        {
+          "id": "mod_utils.json",
+          "name": "mod_utils.json",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sounds/mod_utils.json",
+            "MD5": "8e13de10be491d0bc95bcc72a8335c60",
+            "path": "config/sounds/mod_utils.json"
+          }
+        },
+        {
+          "id": "ui.json",
+          "name": "ui.json",
+          "type": "File",
+          "artifact": {
+            "size": 2108,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sounds/ui.json",
+            "MD5": "94252fa9b7107f42790a7a9fb821d7f2",
+            "path": "config/sounds/ui.json"
+          }
+        },
+        {
+          "id": "world.json",
+          "name": "world.json",
+          "type": "File",
+          "artifact": {
+            "size": 1576,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sounds/world.json",
+            "MD5": "de1a5db2d40db185f4fe4e893bb01058",
+            "path": "config/sounds/world.json"
+          }
+        },
+        {
+          "id": "occlusion.properties",
+          "name": "occlusion.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4831,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sound_physics_remastered/occlusion.properties",
+            "MD5": "65630e0f012205fc8b074e2f90ff89c2",
+            "path": "config/sound_physics_remastered/occlusion.properties"
+          }
+        },
+        {
+          "id": "reflectivity.properties",
+          "name": "reflectivity.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4713,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sound_physics_remastered/reflectivity.properties",
+            "MD5": "a96fdc43367fe049dff56acbf204a79d",
+            "path": "config/sound_physics_remastered/reflectivity.properties"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5104,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sound_physics_remastered/soundphysics.properties",
+            "MD5": "1f6041a6026f08f1d6088437da611263",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "sound_rates.properties",
+          "name": "sound_rates.properties",
+          "type": "File",
+          "artifact": {
+            "size": 73098,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/sound_physics_remastered/sound_rates.properties",
+            "MD5": "87461532d4411be35b39b31c07c8b2ef",
+            "path": "config/sound_physics_remastered/sound_rates.properties"
+          }
+        },
+        {
+          "id": "structureessentials.json",
+          "name": "structureessentials.json",
+          "type": "File",
+          "artifact": {
+            "size": 3787,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/structureessentials.json",
+            "MD5": "76e2baca540b400f9f8024c9428e6e9e",
+            "path": "config/structureessentials.json"
           }
         },
         {
@@ -841,9 +1676,9 @@
           "name": "tacz-client.toml",
           "type": "File",
           "artifact": {
-            "size": 2321,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/tacz-client.toml",
-            "MD5": "1c8911b404ce91d8c703297dd21f23db",
+            "size": 3712,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/tacz-client.toml",
+            "MD5": "884bc4eb3a6860f6b0e021964e136dbf",
             "path": "config/tacz-client.toml"
           }
         },
@@ -852,21 +1687,43 @@
           "name": "tacz-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2174,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/tacz-common.toml",
-            "MD5": "b473a9a00dfbbe415f77bd8166d8642f",
+            "size": 2172,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/tacz-common.toml",
+            "MD5": "a0094e7d081be356dd5974c2bf6b5420",
             "path": "config/tacz-common.toml"
           }
         },
         {
-          "id": "taczaddon-client.toml",
-          "name": "taczaddon-client.toml",
+          "id": "taczmagazines-families.toml",
+          "name": "taczmagazines-families.toml",
           "type": "File",
           "artifact": {
-            "size": 1424,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/taczaddon-client.toml",
-            "MD5": "a09c89e3d6f67ea6529676d7e0b7f7fc",
-            "path": "config/taczaddon-client.toml"
+            "size": 455,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/taczmagazines-families.toml",
+            "MD5": "71df9bb0f0d9d8efe35f81b77606991b",
+            "path": "config/taczmagazines-families.toml"
+          }
+        },
+        {
+          "id": "taczmagazines-gun-overrides.toml",
+          "name": "taczmagazines-gun-overrides.toml",
+          "type": "File",
+          "artifact": {
+            "size": 935,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/taczmagazines-gun-overrides.toml",
+            "MD5": "adc2cd2afff20fa626cafce4ca77be24",
+            "path": "config/taczmagazines-gun-overrides.toml"
+          }
+        },
+        {
+          "id": "taczmagazines-mechanics.toml",
+          "name": "taczmagazines-mechanics.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2092,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/taczmagazines-mechanics.toml",
+            "MD5": "04918d7ffa51bccfc500e772fdfdcd8f",
+            "path": "config/taczmagazines-mechanics.toml"
           }
         },
         {
@@ -874,9 +1731,9 @@
           "name": "tacztweaks.json",
           "type": "File",
           "artifact": {
-            "size": 2952,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/tacztweaks.json",
-            "MD5": "f0d2e0eb63d8b128cf40ce3d9bb7ff03",
+            "size": 3898,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/tacztweaks.json",
+            "MD5": "5953942efabfc04f5f59f2922670e0dd",
             "path": "config/tacztweaks.json"
           }
         },
@@ -886,7 +1743,7 @@
           "type": "File",
           "artifact": {
             "size": 46,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/category-volumes.properties",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/category-volumes.properties",
             "MD5": "47731f53ffef4a8a57c766a8091a5651",
             "path": "config/voicechat/category-volumes.properties"
           }
@@ -896,9 +1753,9 @@
           "name": "player-volumes.properties",
           "type": "File",
           "artifact": {
-            "size": 44,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/player-volumes.properties",
-            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "size": 308,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "9d0cf7947880052923b5408666489cf0",
             "path": "config/voicechat/player-volumes.properties"
           }
         },
@@ -908,7 +1765,7 @@
           "type": "File",
           "artifact": {
             "size": 1182,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/translations.properties",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/translations.properties",
             "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
             "path": "config/voicechat/translations.properties"
           }
@@ -918,9 +1775,9 @@
           "name": "username-cache.json",
           "type": "File",
           "artifact": {
-            "size": 2,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/username-cache.json",
-            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "size": 305,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "ab1bd7b82556fa250775855cee7eacef",
             "path": "config/voicechat/username-cache.json"
           }
         },
@@ -929,9 +1786,9 @@
           "name": "voicechat-client.properties",
           "type": "File",
           "artifact": {
-            "size": 4896,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "1d4e7eabc3779e9e387f27d59fd8ca85",
+            "size": 5168,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "ba53115b8d3966c15adc1725d4f6aaf1",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -940,9 +1797,9 @@
           "name": "voicechat-server.properties",
           "type": "File",
           "artifact": {
-            "size": 2441,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "db56495d1622642c5b862596d6cfdf62",
+            "size": 2830,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "5b3f435523f75fe542edcfdb08ae3373",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
@@ -952,20 +1809,1384 @@
           "type": "File",
           "artifact": {
             "size": 94,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/voicechat-client.toml",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/voicechat-client.toml",
             "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
             "path": "config/voicechat-client.toml"
           }
         },
         {
-          "id": "warborn-armor.toml",
-          "name": "warborn-armor.toml",
+          "id": "waterdripsound-client-1.toml.bak",
+          "name": "waterdripsound-client-1.toml.bak",
           "type": "File",
           "artifact": {
-            "size": 352,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/warborn-armor.toml",
-            "MD5": "48cf548bdd92646f1696c672adc7e7e2",
-            "path": "config/warborn-armor.toml"
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client-1.toml.bak",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client-1.toml.bak"
+          }
+        },
+        {
+          "id": "waterdripsound-client-2.toml.bak",
+          "name": "waterdripsound-client-2.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client-2.toml.bak",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client-2.toml.bak"
+          }
+        },
+        {
+          "id": "waterdripsound-client-3.toml.bak",
+          "name": "waterdripsound-client-3.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client-3.toml.bak",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client-3.toml.bak"
+          }
+        },
+        {
+          "id": "waterdripsound-client-4.toml.bak",
+          "name": "waterdripsound-client-4.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client-4.toml.bak",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client-4.toml.bak"
+          }
+        },
+        {
+          "id": "waterdripsound-client-5.toml.bak",
+          "name": "waterdripsound-client-5.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client-5.toml.bak",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client-5.toml.bak"
+          }
+        },
+        {
+          "id": "waterdripsound-client.toml",
+          "name": "waterdripsound-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/waterdripsound-client.toml",
+            "MD5": "01e112503bc149d0ad8c82115128178d",
+            "path": "config/waterdripsound-client.toml"
+          }
+        },
+        {
+          "id": ".unpack_finished",
+          "name": ".unpack_finished",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/.unpack_finished",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/af/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/af/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4566,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ar/strings.json",
+            "MD5": "ccb6a591026d66e7e76c26ca6c0e532f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ar/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ast/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ast/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/az/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/az/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ba/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ba/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4057,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/be/strings.json",
+            "MD5": "31b3ec62109f6c0a119276e03241602e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/be/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3965,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bg/strings.json",
+            "MD5": "4da771800d50c6412f16cb8ecdf0ae51",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/brb/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/brb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bs/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ca/strings.json",
+            "MD5": "53dffe2d3cbcc78a17fcc99596da24ee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ca/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33420,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cs/strings.json",
+            "MD5": "4e8739531e0ee0327c77eea5eb7a46b8",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cy/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cy/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3017,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/da/strings.json",
+            "MD5": "da14739631bb76fc23562b147db8166c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/da/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34058,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json",
+            "MD5": "2eb256b4751d75bace150bd0c696cb83",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/el/strings.json",
+            "MD5": "7eb20ef5a335fdca3a659de45f0ee52d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/el/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json",
+            "MD5": "f40485c55a59db3256f5929332fed381",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 712,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json",
+            "MD5": "3aedf14afeaa8e7bf8f7a224a3e4eaf9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1992,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json",
+            "MD5": "cb0ae13506c8351b96540b2ed39b9f87",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17531,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json",
+            "MD5": "ec2dedfc3914c50ce153e2defe4c8cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/enp/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/enp/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eo/strings.json",
+            "MD5": "a3652a01fb6c04defc5b7b23a3b6ceef",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36277,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json",
+            "MD5": "ec411eb07566c8d9e97cd957400c999f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36404,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json",
+            "MD5": "361c65a0897f30ce43f267309faa24c0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36132,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json",
+            "MD5": "68844d44b838bde705ea5e1f7dfda57d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5508,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/et/strings.json",
+            "MD5": "b3fa73fded9362326cdb04bfb09a8592",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/et/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 8587,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eu/strings.json",
+            "MD5": "c8c24b1f4753c192e77dda4627067a1b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fa/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fa/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1550,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fi/strings.json",
+            "MD5": "6b73b3641335c7c160d4f2dd99d3dafe",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fil/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fil/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35723,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr/strings.json",
+            "MD5": "ed223033212f5084996ddbf33a7b644e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35762,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json",
+            "MD5": "bb67f2e1e52705781a8cf6133720be9a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gd/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gd/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/got/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/got/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/haw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/haw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 71,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/he/strings.json",
+            "MD5": "4e832ed3e460ceb5ef38a22c8258c184",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/he/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 11082,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hu/strings.json",
+            "MD5": "d5ee1f965beff20fa76c0fc281c94f5c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32493,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/id/strings.json",
+            "MD5": "49fab71647a81e4bc08cb9e7e51e73fc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/id/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ido/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ido/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ig/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ig/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/is/strings.json",
+            "MD5": "794efc06106e4027561eb6d74028e887",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/is/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33942,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/it/strings.json",
+            "MD5": "ffdb60409ff4f44fc8f954211acdc2a0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/it/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 24452,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ja/strings.json",
+            "MD5": "cf9313d382146ffe9fbeebf8ad3e5203",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ja/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ka/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ka/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kab/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kab/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kn/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 30621,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ko/strings.json",
+            "MD5": "3ed68c2d5389712bab212c78c603c0e4",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ko/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lb/strings.json",
+            "MD5": "0a50b81a33bb67e591f09dbdaf31d908",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/li/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/li/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 22098,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lol/strings.json",
+            "MD5": "b3c4c53f4d5c5511dbd7317dad5dacf2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lol/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lt/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 2954,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mn/strings.json",
+            "MD5": "b79b3cb1bc3f4ad2aaaa67dfd37c7214",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/moh/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/moh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ms/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ms/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1759,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mt/strings.json",
+            "MD5": "0482cda50f0dcfe3a997d45a78c68992",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nds/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nds/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32269,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json",
+            "MD5": "48c7832eb4861f1637914f0e9997d118",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/no/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/no/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oc/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oc/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oj/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oj/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 25690,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json",
+            "MD5": "11b68abf2041d0317ce70d4ea9a168b2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5382,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json",
+            "MD5": "71d75aef55ecc25968af12c6a7d6a797",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1737,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ro/strings.json",
+            "MD5": "2e12734bc58538ee90f53cd6377640ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ro/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 44527,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ru/strings.json",
+            "MD5": "103d4a2db8f1e6d34293936bb5541cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ru/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 826,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/se/strings.json",
+            "MD5": "7b1936c9586549d0326c27071f429b85",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/se/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 10085,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sk/strings.json",
+            "MD5": "b2dc7d3c0f989c0a7f302b371828e7d9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/so/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/so/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 6753,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sq/strings.json",
+            "MD5": "53d11b8f421eee6c8a1ca6d90d900407",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sq/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31478,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/strings.json",
+            "MD5": "b459064336009ca1af4cbeb0b6f92bdc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28182,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json",
+            "MD5": "f948fde151ba8f554de572abf67d152f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/swg/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/swg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/szl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/szl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ta/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ta/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/th/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/th/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17748,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tr/strings.json",
+            "MD5": "d03f015cffcfe4751f4d7a1ef6fe0582",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json",
+            "MD5": "30e0b21e67369430a8ce336bec414c74",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/uk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/uk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vec/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vec/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5975,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vi/strings.json",
+            "MD5": "f97d02c4ef8f8f1d22067ec2baeef505",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31940,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json",
+            "MD5": "78cdb55f7b0f706d9448a289bcfedd8b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28368,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json",
+            "MD5": "543f18210face47b370fbbfe4697c8a6",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json"
+          }
+        },
+        {
+          "id": "bc45f81f-5366-4895-8eed-8ead627f4f9e.json",
+          "name": "bc45f81f-5366-4895-8eed-8ead627f4f9e.json",
+          "type": "File",
+          "artifact": {
+            "size": 139,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/sessions/bc45f81f-5366-4895-8eed-8ead627f4f9e.json",
+            "MD5": "7103f0bb6e13029653cc44038eb1d98e",
+            "path": "config/worldedit/sessions/bc45f81f-5366-4895-8eed-8ead627f4f9e.json"
+          }
+        },
+        {
+          "id": "worldedit.properties",
+          "name": "worldedit.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2541,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/worldedit/worldedit.properties",
+            "MD5": "bd0581e8b8c7192b7f11da1fa4a0210b",
+            "path": "config/worldedit/worldedit.properties"
           }
         },
         {
@@ -974,20 +3195,97 @@
           "type": "File",
           "artifact": {
             "size": 35,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/config/yacl.json5",
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/yacl.json5",
             "MD5": "81d542abb72c4750c7218e0d975e3368",
             "path": "config/yacl.json5"
           }
         },
         {
-          "id": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
-          "name": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+          "id": "zcraft_decorations-common.toml",
+          "name": "zcraft_decorations-common.toml",
           "type": "File",
           "artifact": {
-            "size": 142239,
-            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/tacz-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
-            "MD5": "cffbb5d1e720f96358ab2173c72b938a",
-            "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip"
+            "size": 1577,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/config/zcraft_decorations-common.toml",
+            "MD5": "a1fbd44e6fcd7379d4ec7a9530fee80a",
+            "path": "config/zcraft_decorations-common.toml"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip",
+          "name": "ComplementaryReimagined_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/ComplementaryReimagined_r5.5.1.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "resourcepacks/ComplementaryReimagined_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "container_distance_fade_8_blocks.zip",
+          "name": "container_distance_fade_8_blocks.zip",
+          "type": "File",
+          "artifact": {
+            "size": 560,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/container_distance_fade_8_blocks.zip",
+            "MD5": "afe1940a9cd1139d24f4c33663f52d93",
+            "path": "resourcepacks/container_distance_fade_8_blocks.zip"
+          }
+        },
+        {
+          "id": "TZP_1.20.1_2.7.zip",
+          "name": "TZP_1.20.1_2.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14177090,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/TZP_1.20.1_2.7.zip",
+            "MD5": "9c0fe8ecd9931b0121ab939425dd7b1e",
+            "path": "resourcepacks/TZP_1.20.1_2.7.zip"
+          }
+        },
+        {
+          "id": "[1.19-1.21] Yuushya Release 0.20.0.zip",
+          "name": "[1.19-1.21] Yuushya Release 0.20.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 9757344,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/[1.19-1.21]%20Yuushya%20Release%200.20.0.zip",
+            "MD5": "8664f6c2279ea116defee8cef1c00245",
+            "path": "resourcepacks/[1.19-1.21] Yuushya Release 0.20.0.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_Low_Preset.zip.txt",
+          "name": "ComplementaryReimagined_Low_Preset.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1011,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/shaderpacks/ComplementaryReimagined_Low_Preset.zip.txt",
+            "MD5": "20556ba83affd0f5ebe5ee3b71100665",
+            "path": "shaderpacks/ComplementaryReimagined_Low_Preset.zip.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_Quality_Preset.zip",
+          "name": "ComplementaryReimagined_Quality_Preset.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/shaderpacks/ComplementaryReimagined_Quality_Preset.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "shaderpacks/ComplementaryReimagined_Quality_Preset.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_Quality_Preset.zip.txt",
+          "name": "ComplementaryReimagined_Quality_Preset.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1033,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/shaderpacks/ComplementaryReimagined_Quality_Preset.zip.txt",
+            "MD5": "c9d428f7c8667bbb071e27506a57e2b9",
+            "path": "shaderpacks/ComplementaryReimagined_Quality_Preset.zip.txt"
           }
         }
       ]

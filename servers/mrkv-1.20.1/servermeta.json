@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "name": "MRKV",
+    "description": "MRKV Minecraft 1.20.1 모드팩",
+    "icon": "",
+    "address": "pangduck.o-r.kr",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.4.10"
+  },
+  "untrackedFiles": []
+}
