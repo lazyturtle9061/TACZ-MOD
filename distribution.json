@@ -12,7 +12,7 @@
       "name": "MRKV",
       "description": "MRKV Minecraft 1.20.1 모드팩",
       "icon": null,
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "pangduck.o-r.kr",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -915,6 +915,16 @@
             "size": 9322,
             "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tarkovdayz_translation-1.0.0-forge-1.20.1.jar",
             "MD5": "3b5a715417cf7adc4950a3c912679b9e"
+          }
+        },
+        {
+          "id": "net.mcreator:tarkovdayz:1.0.0@jar",
+          "name": "Zcraft-Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52967274,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/tarkovdayz-1.0.2-forge-1.20.1.jar",
+            "MD5": "221c3987d58fad02894ae3b2e1066d0f"
           }
         },
         {
