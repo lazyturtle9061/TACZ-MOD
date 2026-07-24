@@ -12,7 +12,7 @@
       "name": "MRKV",
       "description": "MRKV Minecraft 1.20.1 모드팩",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "pangduck.o-r.kr",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -965,6 +965,16 @@
             "size": 23411995,
             "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/yuushya-1.20.1-forge-2.2.3.jar",
             "MD5": "ecb9b749009a34326f3bdbb9b0f64045"
+          }
+        },
+        {
+          "id": "com.zcraft.decorations:zcraft_decorations:1.0.0@jar",
+          "name": "Zcraft_Decorations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77119231,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/forgemods/required/Zcraft_Decorations-1.0.1.jar",
+            "MD5": "05a311f1662d040a4fdc746eb936918c"
           }
         },
         {
