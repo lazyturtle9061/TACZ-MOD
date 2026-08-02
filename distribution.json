@@ -10,7 +10,7 @@
     {
       "id": "mrkv-1.20.1",
       "name": "MRKV",
-      "description": "MRKV Minecraft 1.20.1 모드팩",
+      "description": "MRKV Running Minecraft 1.20.1",
       "icon": null,
       "version": "1.0.2",
       "address": "pangduck.o-r.kr",
@@ -3252,6 +3252,16 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5953,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "ComplementaryReimagined_r5.5.1.zip",
           "name": "ComplementaryReimagined_r5.5.1.zip",
           "type": "File",
@@ -3271,6 +3281,17 @@
             "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/container_distance_fade_8_blocks.zip",
             "MD5": "afe1940a9cd1139d24f4c33663f52d93",
             "path": "resourcepacks/container_distance_fade_8_blocks.zip"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.10.4.zip",
+          "name": "FreshAnimations_v1.10.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 850941,
+            "url": "https://lazyturtle9061.github.io/TACZ-MOD/servers/mrkv-1.20.1/files/resourcepacks/FreshAnimations_v1.10.4.zip",
+            "MD5": "ab0e8cc3444e98f0fd51ac0d84533d52",
+            "path": "resourcepacks/FreshAnimations_v1.10.4.zip"
           }
         },
         {

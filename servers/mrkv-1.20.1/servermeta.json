@@ -1,9 +1,9 @@
 {
+  "$schema": "file:///C:/launcher/root/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.2",
     "name": "MRKV",
-    "description": "MRKV Minecraft 1.20.1 모드팩",
-    "icon": "",
+    "description": "MRKV Running Minecraft 1.20.1",
     "address": "pangduck.o-r.kr",
     "mainServer": true,
     "autoconnect": true
@@ -11,5 +11,14 @@
   "forge": {
     "version": "47.4.10"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [
+    {
+      "appliesTo": [
+        "files"
+      ],
+      "patterns": [
+        "options.txt"
+      ]
+    }
+  ]
 }
