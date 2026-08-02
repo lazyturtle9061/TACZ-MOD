@@ -166,7 +166,7 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
-soundCategory_master:0.0
+soundCategory_master:0.12498189155629137
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
